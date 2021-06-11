@@ -11,9 +11,7 @@ code {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "Helvetica Neue", "Roboto", "Helvetica", "Arial", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -68,14 +66,20 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
+  font-family: "Helvetica Neue";
+  font-weight: bold;
+  font-size: 96px;
   margin: 5px 0;
   line-height: 1.25;
 }
 
 h1 {
-  font-size: 2.25rem;
+  font-size: 6rem;
+  font-weight: bold;
+  text-rendering: optimizeLegibility;
+  animation: 1s ease 1s 1 normal both running kUhrEl;
+  line-height: 5rem;
+  margin-bottom: 1.5rem;
 }
 
 h2 {
@@ -99,7 +103,10 @@ h6 {
 }
 
 p {
-  font-size: 1.1rem;
+  font-family: "Helvetica Neue";
+  letter-spacing: 0.125em;
+  font-weight: bold;
+  font-size: 1.5rem;
   margin-top: 0;
 }
 

@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "../Card";
-import jobless from "../../assets/images/safersale.jpg";
+import safersale from "../../assets/images/safersale.jpg";
+import jobless from "../../assets/images/jobless.jpg";
 
 function Portfolio() {
   const projects = [
@@ -12,9 +13,9 @@ function Portfolio() {
       deployment: "https://merriammassey.github.io/job-search/",
     },
     {
-      name: "project 2",
+      name: "Safer Sale",
       description: "Lorem ipsum",
-      image: "../../assets/images/jobless.jpg",
+      image: safersale,
       repo: "https://github.com/merriammassey/job-search",
       deployment: "https://merriammassey.github.io/job-search/",
     },

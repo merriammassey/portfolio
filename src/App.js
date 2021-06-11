@@ -3,6 +3,8 @@ import "./App.css";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Nav from "./components/Nav";
+import Resume from "./components/Resume";
+
 import "@fontsource/roboto";
 //<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -13,16 +15,16 @@ function App() {
       <div>
         <Nav></Nav>
         <Switch>
-          <Route path="/">
+          <Route exact path="/">
             <About />
           </Route>
           <Route path="/portfolio">
             <Portfolio />
           </Route>
-          {/* <Route path="/resume">
-            <About />
+          <Route path="/resume">
+            <Resume />
           </Route>
-          <Route path="contact">
+          {/* <Route path="contact">
             <Contact />
           </Route>  */}
         </Switch>
@@ -32,17 +34,17 @@ function App() {
 }
 /* 
 function About() {
-  return <About></About>;
+  return <h2>About</h2>;
 }
 
 function Portfolio() {
-  return <Portfolio></Portfolio>;
+  return <h2>My work</h2>;
 }
 
 function Resume() {
   return <h2>Resume</h2>;
 }
- */
+ 
 /* 
 function App() {
   return (
