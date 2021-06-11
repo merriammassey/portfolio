@@ -1,12 +1,12 @@
-import React, { useEffect } from "react";
+//import React, { useEffect } from "react";
+import React from "react";
 
-function Nav(props) {
-  const { categories = [], setCurrentCategory, currentCategory } = props;
+function Nav() {
   //change title of browser tab
-  useEffect(() => {
+  /* useEffect(() => {
     document.title = currentCategory.name;
   }, [currentCategory]);
-
+ */
   return (
     <header className="flex-row px-1">
       <h2>
@@ -22,24 +22,15 @@ function Nav(props) {
             </a>
           </li>
           <li>
-            <span>Contact</span>
+            <a data-testid="about" href="#contact">
+              Contact
+            </a>
           </li>
-          {categories.map((category) => (
-            <li
-              className={`mx-1 ${
-                currentCategory.name === category.name && "navActive"
-              }`}
-              key={category.name}
-            >
-              <span
-                onClick={() => {
-                  setCurrentCategory(category);
-                }}
-              >
-                {category.name}
-              </span>{" "}
-            </li>
-          ))}
+          <li>
+            <a data-testid="about" href="#portfolio">
+              My Work
+            </a>
+          </li>
         </ul>
       </nav>
     </header>

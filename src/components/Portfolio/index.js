@@ -1,23 +1,40 @@
 import React from "react";
-import photo from "../../assets/jobless.jpg";
+import Card from "../Card";
+import jobless from "../../assets/images/safersale.jpg";
 
-function Portfolio(props) {
-  const currentProject = {
-    name: "name of project",
-    description: "tools used",
-  };
+function Portfolio() {
+  const projects = [
+    {
+      name: "Jobless",
+      description: "Lorem ipsum",
+      image: jobless,
+      repo: "https://github.com/merriammassey/job-search",
+      deployment: "https://merriammassey.github.io/job-search/",
+    },
+    {
+      name: "project 2",
+      description: "Lorem ipsum",
+      image: "../../assets/images/jobless.jpg",
+      repo: "https://github.com/merriammassey/job-search",
+      deployment: "https://merriammassey.github.io/job-search/",
+    },
+    {
+      name: "Jobless",
+      description: "Lorem ipsum",
+      image: "../../assets/images/jobless.jpg",
+      repo: "https://github.com/merriammassey/job-search",
+      deployment: "https://merriammassey.github.io/job-search/",
+    },
+  ];
+
   return (
-    <section>
-      <h1>{currentProject.name}</h1>
-      <p>{currentProject.name}</p>
-      <div>
-        <img
-          src={photo}
-          alt="Jobless screeshot"
-          className="img-thumbnail mx-1"
-        />
+    <div>
+      <div className="flex-row">
+        {projects.map((project) => (
+          <Card project={project}></Card>
+        ))}
       </div>
-    </section>
+    </div>
   );
 }
 
