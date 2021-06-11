@@ -3,6 +3,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
 import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
+import { Link } from "react-router-dom";
 
 const useStyles = makeStyles({
   root: {
@@ -27,10 +28,10 @@ function Nav() {
         textColor="primary"
         centered
       >
-        <Tab label="About" />
-        <Tab label="My work" />
-        <Tab label="Resume" />
-        <Tab label="Contact" />
+        <Tab label="About" component={Link} to={"/"} />
+        <Tab label="My work" component={Link} to={"/portfolio"} />
+        <Tab label="Resume" component={Link} to={"/resume"} />
+        <Tab label="Contact" component={Link} to={"/contact"} />
       </Tabs>
     </Paper>
   );
