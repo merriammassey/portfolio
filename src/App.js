@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-//import About from "./components/About";
+import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Nav from "./components/Nav";
 import "@fontsource/roboto";
@@ -13,36 +13,36 @@ function App() {
       <div>
         <Nav></Nav>
         <Switch>
-          <Route path="/about">
+          <Route path="/">
             <About />
           </Route>
           <Route path="/portfolio">
             <Portfolio />
           </Route>
-          <Route path="/resume">
-            <Resume />
+          {/* <Route path="/resume">
+            <About />
           </Route>
-          {/* <Route path="contact">
+          <Route path="contact">
             <Contact />
-          </Route> */}
+          </Route>  */}
         </Switch>
       </div>
     </Router>
   );
 }
-
+/* 
 function About() {
-  return <Portfolio></Portfolio>;
+  return <About></About>;
 }
 
-/* function Portfolio() {
-  return <h2>My Work</h2>;
-} */
+function Portfolio() {
+  return <Portfolio></Portfolio>;
+}
 
 function Resume() {
   return <h2>Resume</h2>;
 }
-
+ */
 /* 
 function App() {
   return (
