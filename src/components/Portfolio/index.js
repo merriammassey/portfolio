@@ -2,6 +2,10 @@ import React from "react";
 import Card from "../Card";
 import safersale from "../../assets/images/safersale.jpg";
 import jobless from "../../assets/images/jobless.jpg";
+import weather from "../../assets/images/weather.jpg";
+import pg from "../../assets/images/pg.jpg";
+import ecommerce from "../../assets/images/ecommerce.jpg";
+import techblog from "../../assets/images/techblog.jpg";
 
 function Portfolio() {
   const projects = [
@@ -16,15 +20,37 @@ function Portfolio() {
       name: "Safer Sale",
       description: "Lorem ipsum",
       image: safersale,
-      repo: "https://github.com/merriammassey/job-search",
-      deployment: "https://merriammassey.github.io/job-search/",
+      repo: "https://github.com/merriammassey/Safer-Sale",
+      deployment: "https://safersale.herokuapp.com/",
     },
     {
-      name: "Jobless",
+      name: "Weather Dashboard",
       description: "Lorem ipsum",
-      image: "../../assets/images/jobless.jpg",
-      repo: "https://github.com/merriammassey/job-search",
-      deployment: "https://merriammassey.github.io/job-search/",
+      image: weather,
+      repo: "https://github.com/merriammassey/weather-dashboard",
+      deployment: "https://merriammassey.github.io/weather-dashboard/",
+    },
+    {
+      name: "Password Generator",
+      description: "Lorem ipsum",
+      image: pg,
+      repo: "https://github.com/merriammassey/password-generator",
+      deployment: "https://merriammassey.github.io/password-generator/",
+    },
+    {
+      name: "Tech Blog",
+      description: "Lorem ipsum",
+      image: techblog,
+      repo: "https://github.com/merriammassey/tech-blog",
+      deployment: "https://serene-peak-86703.herokuapp.com//",
+    },
+    {
+      name: "E-Commerce Backend",
+      description: "Lorem ipsum",
+      image: ecommerce,
+      repo: "https://github.com/merriammassey/ecommerce-backend",
+      deployment:
+        "https://www.youtube.com/watch?v=f-dBNa0Y9k0&feature=youtu.be",
     },
   ];
 

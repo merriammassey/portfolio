@@ -39,6 +39,11 @@ main {
   --spacing-five: calc(2.5rem);
 }
 
+.flex-row {
+  justify-content: center;
+  padding-top: 30px;
+}
+
 * {
   box-sizing: border-box;
 }

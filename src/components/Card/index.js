@@ -19,9 +19,12 @@ const useStyles = makeStyles({
 
 export default function MediaCard({ project }) {
   const classes = useStyles();
-
+  const cardstyle = {
+    width: "500px",
+    margin: "10px",
+  };
   return (
-    <Card className={classes.root}>
+    <Card style={cardstyle} className={classes.root}>
       <CardActionArea>
         <CardMedia
           className={classes.media}
@@ -42,7 +45,7 @@ export default function MediaCard({ project }) {
           <a href={project.deployment}>Visit</a>
         </Button>
         <Button size="small" color="primary">
-          Repo
+          <a href={project.repo}>Repo</a>
         </Button>
       </CardActions>
     </Card>
