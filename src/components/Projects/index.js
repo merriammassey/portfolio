@@ -1,15 +1,14 @@
 import React, { useState } from "react";
-//import photo from "../../assets/jobless.jpg";
+//import photo from ;
 
 const ProjectList = ({ category }) => {
   const [projects] = useState([
     {
       name: "Jobless",
-      category: "Projects",
       description: "Lorem ipsum",
     },
     {
-      name: "Jobless",
+      name: "Safer Sale",
       category: "Projects",
       description: "Lorem ipsum",
     },

@@ -1,8 +1,7 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
-//useEffect(() => {});
-import { Link } from "react-router-dom";
+import PDF from "../../assets/MasseyCV.pdf";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -21,9 +20,7 @@ function Resume() {
           variant="contained"
           color="primary"
           a
-          href={
-            "https://drive.google.com/file/d/1SJYIm7QCqqs4rzSBlPXEM35H76q38wtz/view?usp=sharing"
-          }
+          href={PDF}
           target="_blank"
         >
           Resume
