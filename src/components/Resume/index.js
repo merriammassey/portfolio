@@ -20,8 +20,11 @@ function Resume() {
         <Button
           variant="contained"
           color="primary"
-          component={Link}
-          to={"./MasseyCV.pdf"}
+          a
+          href={
+            "https://drive.google.com/file/d/1SJYIm7QCqqs4rzSBlPXEM35H76q38wtz/view?usp=sharing"
+          }
+          target="_blank"
         >
           Resume
         </Button>
