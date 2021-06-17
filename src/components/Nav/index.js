@@ -28,7 +28,7 @@ function Nav() {
         textColor="primary"
         centered
       >
-        <Tab label="About" component={Link} to={"/"} />
+        <Tab label="About" component={Link} to={"/about"} />
         <Tab label="My work" component={Link} to={"/portfolio"} />
         <Tab label="Resume" component={Link} to={"/resume"} />
         <Tab label="Contact" component={Link} to={"/contact"} />

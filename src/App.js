@@ -4,6 +4,7 @@ import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Nav from "./components/Nav";
 import Resume from "./components/Resume";
+import Contact from "./components/Contact";
 
 import "@fontsource/roboto";
 //<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
@@ -18,15 +19,18 @@ function App() {
           <Route exact path="/">
             <About />
           </Route>
+          <Route exact path="/about">
+            <About />
+          </Route>
           <Route path="/portfolio">
             <Portfolio />
           </Route>
           <Route path="/resume">
             <Resume />
           </Route>
-          {/* <Route path="contact">
+          <Route path="/contact">
             <Contact />
-          </Route>  */}
+          </Route>
         </Switch>
       </div>
     </Router>
