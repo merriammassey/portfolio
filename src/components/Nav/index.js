@@ -20,6 +20,7 @@ function Nav() {
   };
 
   return (
+    // <div>
     <Paper className={classes.root}>
       <Tabs
         value={value}
@@ -34,6 +35,13 @@ function Nav() {
         <Tab label="Contact" component={Link} to={"/contact"} />
       </Tabs>
     </Paper>
+    /* <div id="header">
+        <h3 value={value} onChange={handleChange}>
+          {value}
+        </h3>
+        <hr></hr>
+      </div> */
+    /* </div> */
   );
 }
 

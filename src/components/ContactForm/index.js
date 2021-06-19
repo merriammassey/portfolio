@@ -79,7 +79,7 @@ export default function FormPropsTextFields() {
           type="email"
           defaultValue={email}
           name="email"
-          onChange={handleChange}
+          onBlur={handleChange}
           fullWidth
           margin="normal"
         />
@@ -94,7 +94,7 @@ export default function FormPropsTextFields() {
           margin="normal"
           name="message"
           defaultValue={message}
-          onChange={handleChange}
+          onBlur={handleChange}
         />
       </div>
       {errorMessage && (

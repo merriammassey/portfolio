@@ -1,22 +1,26 @@
 import React from "react";
 //import headshot from "../../assets/headshot.png";
 import "./style.css";
+import Aboutphotos from "../Aboutphotos";
+import image from "../../assets/headshot.png";
+import Footer from "../Footer";
 
 function About() {
   return (
-    <section>
-      <div id="homephoto">
-        <p>MY NAME IS</p>
-        <h1>Merriam Massey</h1>
-        <p>I am a fullstack developer based in Phoenix, Arizona.</p>
-        {/* <img
-          src={headshot}
-          className="my-2"
-          style={{ width: "100%" }}
-          alt="cover"
-        /> */}
+    <div>
+      <div id="title">
+        <h3>About me</h3>
+        <hr></hr>
       </div>
-    </section>
+      <div className="flex-row">
+        <img src={image} style={{ maxWidth: "50vh" }} alt=""></img>
+        <div id="bio">
+          <h2></h2>
+          <p className="MuiTypography-body1">Lorem ipsum </p>
+        </div>
+      </div>
+      <Footer></Footer>
+    </div>
   );
 }
 

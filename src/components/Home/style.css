@@ -1,0 +1,19 @@
+#homephoto {
+  background-image: url("../../assets/darkcode.jpg");
+  height: 100vh;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.MuiCardMedia-img {
+  padding: 0;
+  margin: 0;
+  object-position: 10px 50%;
+  background-position-y: -50;
+  object-fit: cover;
+}
+
+#text {
+  margin-left: 5%;
+}

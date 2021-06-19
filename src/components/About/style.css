@@ -1,14 +1,31 @@
 #homephoto {
-  background-image: url("../../assets/code.jpg");
+  background-image: url("../../assets/headshotlarge.jpg");
   background-size: cover;
-  height: 100vh;
-  opacity: 70%;
+  height: 40vh;
+  opacity: 100%;
 }
 
+#about {
+  display: flex;
+  flex-direction: row;
+}
 .MuiCardMedia-img {
   padding: 0;
   margin: 0;
   object-position: 10px 50%;
   background-position-y: -50;
   object-fit: cover;
+}
+
+#title {
+  width: 75%;
+}
+
+h3 {
+  margin-left: 15%;
+  border-bottom: 3px grey;
+}
+
+#bio {
+  padding-left: 3%;
 }

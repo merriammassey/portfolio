@@ -76,6 +76,7 @@ h6 {
   font-size: 96px;
   margin: 5px 0;
   line-height: 1.25;
+  color: rgba(0, 0, 0, 0.877);
 }
 
 h1 {
@@ -85,14 +86,15 @@ h1 {
   animation: 1s ease 1s 1 normal both running kUhrEl;
   line-height: 5rem;
   margin-bottom: 1.5rem;
+  color: white;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 4rem;
 }
 
 h3 {
-  font-size: 1.75rem;
+  font-size: 2rem;
 }
 
 h4 {

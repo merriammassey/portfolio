@@ -6,6 +6,8 @@ import weather from "../../assets/images/weather.jpg";
 import pg from "../../assets/images/pg.jpg";
 import ecommerce from "../../assets/images/ecommerce.jpg";
 import techblog from "../../assets/images/techblog.jpg";
+import "./style.css";
+import Footer from "../Footer";
 
 function Portfolio() {
   const projects = [
@@ -56,11 +58,16 @@ function Portfolio() {
 
   return (
     <div>
+      <div id="title">
+        <h3>My Work</h3>
+        <hr></hr>
+      </div>
       <div className="flex-row">
         {projects.map((project) => (
           <Card project={project}></Card>
         ))}
       </div>
+      <Footer></Footer>
     </div>
   );
 }

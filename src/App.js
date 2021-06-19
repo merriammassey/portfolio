@@ -5,6 +5,7 @@ import Portfolio from "./components/Portfolio";
 import Nav from "./components/Nav";
 import Resume from "./components/Resume";
 import Contact from "./components/Contact";
+import Home from "./components/Home";
 
 import "@fontsource/roboto";
 //<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
@@ -17,7 +18,7 @@ function App() {
         <Nav></Nav>
         <Switch>
           <Route exact path="/">
-            <About />
+            <Home />
           </Route>
           <Route exact path="/about">
             <About />

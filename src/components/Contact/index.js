@@ -9,6 +9,8 @@ import CardActions from "@material-ui/core/CardActions";
 import CardContent from "@material-ui/core/CardContent";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
+import "./style.css";
+import Footer from "../Footer";
 
 const useStyles = makeStyles({
   root: {
@@ -51,47 +53,54 @@ function Contact() {
     flexDirection: "row",
     flexWrap: "wrap",
   }; */
-  const bull = <span className={classes.bullet}>•</span>;
+  //const bull = <span className={classes.bullet}>•</span>;
   return (
-    <div className="flex-row">
-      <Card className={classes.root} style={cardstyle}>
-        <CardContent>
-          <Typography variant="h5" component="h2">
-            Get in Touch
-          </Typography>
-          <Typography className={classes.pos} color="textSecondary">
-            Complete the form below, and I will respond as soon as possible.
-          </Typography>
-        </CardContent>
-        <ContactForm fullWidth></ContactForm>
-      </Card>
+    <div>
+      <div id="title">
+        <h3>Contact</h3>
+        <hr></hr>
+      </div>
+      <div className="flex-row">
+        <Card className={classes.root} style={cardstyle}>
+          <CardContent>
+            <Typography variant="h5" component="h2">
+              Get in Touch
+            </Typography>
+            <Typography className={classes.pos} color="textSecondary">
+              Complete the form below, and I will respond as soon as possible.
+            </Typography>
+          </CardContent>
+          <ContactForm fullWidth></ContactForm>
+        </Card>
 
-      <Card className={classes.root} style={cardstyle}>
-        <CardContent>
-          <Typography
-            className={classes.title}
-            color="textSecondary"
-            gutterBottom
-          >
-            Word of the Day
-          </Typography>
-          <Typography variant="h5" component="h2">
-            Get in Touch
-          </Typography>
-          <Typography className={classes.pos} color="textSecondary">
-            Complete the form below and I will respond as soon as possible.
-          </Typography>
-          <Typography variant="body2" component="p">
-            well meaning and kindly.
-            <br />
-            {'"a benevolent smile"'}
-          </Typography>
-        </CardContent>
-        <CardActions>
-          <Button size="small">Learn More</Button>
-        </CardActions>
-        <ContactForm></ContactForm>
-      </Card>
+        {/*<Card className={classes.root} style={cardstyle}>
+          <CardContent>
+            <Typography
+              className={classes.title}
+              color="textSecondary"
+              gutterBottom
+            >
+              Word of the Day
+            </Typography>
+            <Typography variant="h5" component="h2">
+              Get in Touch
+            </Typography>
+            <Typography className={classes.pos} color="textSecondary">
+              Complete the form below and I will respond as soon as possible.
+            </Typography>
+            <Typography variant="body2" component="p">
+              well meaning and kindly.
+              <br />
+              {'"a benevolent smile"'}
+            </Typography>
+          </CardContent>
+          <CardActions>
+            <Button size="small">Learn More</Button>
+          </CardActions>
+          <ContactForm></ContactForm>
+  </Card> */}
+      </div>
+      <Footer></Footer>
     </div>
   );
 }
