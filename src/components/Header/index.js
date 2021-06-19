@@ -1,6 +1,7 @@
 import React from "react";
 //import "./App.css";
 import "./style.css";
+import Nav from "../Nav";
 
 function Header() {
   /*  const [value, setValue] = React.useState(0);
@@ -8,12 +9,7 @@ function Header() {
   const handleChange = (event, newValue) => {
     setValue(newValue);
   }; */
-  return (
-    <div id="title">
-      <h3>Contact</h3>
-      <hr></hr>
-    </div>
-  );
+  return <Nav></Nav>;
 }
 
 export default Header;
