@@ -1,14 +1,8 @@
-#homephoto {
-  background-image: url("../../assets/headshotlarge.jpg");
-  background-size: cover;
-  height: 40vh;
-  opacity: 100%;
-}
-
 #about {
   display: flex;
   flex-direction: row;
 }
+
 .MuiCardMedia-img {
   padding: 0;
   margin: 0;
@@ -19,6 +13,7 @@
 
 #title {
   width: 75%;
+  font-size: 2rem !important;
 }
 
 h3 {
@@ -28,4 +23,9 @@ h3 {
 
 #bio {
   padding-left: 3%;
+  width: 60vw;
+}
+
+#headshot {
+  width: 40vh;
 }

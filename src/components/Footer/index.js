@@ -10,17 +10,17 @@ function Footer() {
     <footer id="footer">
       <div>
         <a href="https://linkedin.com/in/merriammassey">
-          <img alt="linkedin logo" src={li}></img>
+          <img id="logo" alt="linkedin logo" src={li}></img>
         </a>
         <a href="https://github.com/merriammassey">
-          <img alt="github logo" src={gh}></img>
+          <img id="logo" alt="github logo" src={gh}></img>
         </a>
         <a href="https://www.instagram.com/merriammm/">
-          <img alt="instagram logo" src={ig}></img>
+          <img id="logo" alt="instagram logo" src={ig}></img>
         </a>
       </div>
       <div>
-        <p className="MuiTypography-body1">© Merriam Massey 2021</p>
+        <p className="MuiTypography-body1 !important">© Merriam Massey 2021</p>
       </div>
     </footer>
   );

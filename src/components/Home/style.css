@@ -17,3 +17,55 @@
 #text {
   margin-left: 5%;
 }
+
+@keyframes mni {
+  from {
+    padding-top: 40%;
+    opacity: 0%;
+  }
+  to {
+    padding-bottom: 0%;
+    opacity: 100%;
+  }
+}
+
+#mni {
+  animation-name: mni;
+  animation-duration: 1s;
+  animation-delay: 2s;
+  animation-iteration-count: 1;
+}
+
+@keyframes mm {
+  from {
+    padding-left: 100%;
+    opacity: 0%;
+  }
+  to {
+    padding-left: 0%;
+    opacity: 100%;
+  }
+}
+
+#mm {
+  animation-name: mm;
+  animation-duration: 1s;
+  animation-delay: 3s;
+  animation-iteration-count: 1;
+}
+
+@keyframes iaa {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+#iaa::after {
+  animation-name: iaa;
+  animation-duration: 2s;
+  animation-delay: 5s;
+  animation-iteration-count: 1;
+}

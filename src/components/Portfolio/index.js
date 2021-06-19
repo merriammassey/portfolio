@@ -59,7 +59,7 @@ function Portfolio() {
   return (
     <div>
       <div id="title">
-        <h3>My Work</h3>
+        <h3>My work</h3>
         <hr></hr>
       </div>
       <div className="flex-row">

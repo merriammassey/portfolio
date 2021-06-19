@@ -15,41 +15,92 @@ const useStyles = makeStyles((theme) => ({
 
 function Resume() {
   const classes = useStyles();
+  const bull = <span className={classes.bullet}>•</span>;
   return (
     <div>
       <div id="title">
         <h3>Resume</h3>
         <hr></hr>
       </div>
-      <div className={classes.root}>
-        <Button
-          variant="contained"
-          color="primary"
-          a
-          href={PDF}
-          target="_blank"
-        >
-          Resume
-        </Button>
-        <h2>Proficiencies</h2>
-        <ul>
-          <li>JavaScript ES6+</li>
-          <li>CSS3</li>
-          <li>HTML5</li>
-          <li>SQL</li>
-          <li>NoSQL</li>
-          <li>MongoDB</li>
-          <li>Heroku</li>
-          <li>AWS</li>
-          <li>Express</li>
-          <li>React</li>
-          <li>Node</li>
-          <li>Handlebars</li>
-          <li>Query</li>
-          <li>Bootstrap</li>
-          <li>Ajax</li>
-          <li>React</li>
+      <div id="resume">
+        <ul id="tools">
+          <h4>My tools</h4>
+          <br />
+          <li>
+            {bull}
+            {"  "}JavaScript
+          </li>
+          <li>
+            {bull}
+            {"  "}CSS3
+          </li>
+          <li>
+            {bull}
+            {"  "}HTML5
+          </li>
+          <li>
+            {bull}
+            {"  "}SQL
+          </li>
+          <li>
+            {bull}
+            {"  "}NoSQL
+          </li>
+          <li>
+            {bull}
+            {"  "}MongoDB
+          </li>
+          <li>
+            {bull}
+            {"  "}Heroku
+          </li>
+          <li>
+            {bull}
+            {"  "}AWS
+          </li>
+          <li>
+            {bull}
+            {"  "}Express
+          </li>
+          <li>
+            {bull}
+            {"  "}React
+          </li>
+          <li>
+            {bull}
+            {"  "}Node
+          </li>
+          <li>
+            {bull}
+            {"  "}Query
+          </li>
+          <li>
+            {bull}
+            {"  "}Bootstrap
+          </li>
+          <li>
+            {bull}
+            {"  "}Ajax
+          </li>
+          <li>
+            {bull}
+            {"  "}React
+          </li>
+          <li>{bull} Handlebars</li>
         </ul>
+        <div className={classes.root}>
+          <Button
+            variant="contained"
+            color="primary"
+            a
+            href={PDF}
+            target="_blank"
+            id="rb"
+          >
+            Resume
+          </Button>
+          <div></div>
+        </div>
       </div>
       <Footer></Footer>
     </div>

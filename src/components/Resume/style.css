@@ -6,3 +6,17 @@ h3 {
   margin-left: 15%;
   border-bottom: 3px grey;
 }
+
+#resume {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#tools {
+  margin-right: 20%;
+}
+
+#rb {
+  padding-top: 10%;
+}
