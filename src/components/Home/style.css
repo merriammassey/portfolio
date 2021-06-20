@@ -1,5 +1,6 @@
 #homephoto {
   background-image: url("../../assets/darkcode.jpg");
+  background-size: cover;
   height: 100vh;
   color: white;
   display: flex;
@@ -33,12 +34,11 @@
 
 #mni {
   animation-name: mni;
-  animation-duration: 1s;
-  animation-delay: 2s;
+  animation-duration: 2s;
   animation-iteration-count: 1;
 }
 
-@keyframes mm {
+/* @keyframes mm {
   from {
     padding-left: 100%;
     opacity: 0%;
@@ -54,7 +54,7 @@
   animation-duration: 1s;
   animation-delay: 3s;
   animation-iteration-count: 1;
-}
+} */
 
 @keyframes iaa {
   from {
@@ -68,6 +68,5 @@
 #iaa::after {
   animation-name: iaa;
   animation-duration: 2s;
-  animation-delay: 5s;
   animation-iteration-count: 1;
 }

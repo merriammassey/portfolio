@@ -30,7 +30,7 @@ function Nav() {
         centered
       >
         <Tab label="About" component={Link} to={"/about"} />
-        <Tab label="My work" component={Link} to={"/portfolio"} />
+        <Tab label="My work" component={Link} to={"/myportfolio"} />
         <Tab label="Resume" component={Link} to={"/resume"} />
         <Tab label="Contact" component={Link} to={"/contact"} />
       </Tabs>

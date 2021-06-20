@@ -36,10 +36,6 @@ function About() {
             professional development, and consultant services to school
             districts throughout the state.
             <br />
-            <br />I love getting up early and accomplishing something
-            challenging before 8am - like running the hills in my neighborhood.
-            In my free time, I train for triathlons and enjoy Arizona's lakes
-            and trails with my dog Pookie.
           </article>
         </div>
       </div>
