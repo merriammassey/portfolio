@@ -89,17 +89,9 @@ function Resume() {
           <li>{bull} Handlebars</li>
         </ul>
         <div className={classes.root}>
-          <Button
-            variant="contained"
-            color="primary"
-            a
-            href={PDF}
-            target="_blank"
-            id="rb"
-          >
-            Resume
+          <Button variant="contained" a href={PDF} target="_blank" id="rb">
+            View resume
           </Button>
-          <div></div>
         </div>
       </div>
       <Footer></Footer>

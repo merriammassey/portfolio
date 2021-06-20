@@ -20,3 +20,12 @@ h3 {
 #rb {
   padding-top: 10%;
 }
+
+.MuiButton-contained {
+  background-color: rgb(122, 211, 213) !important;
+  color: white !important;
+}
+
+.MuiButton-label {
+  color: black !important;
+}
