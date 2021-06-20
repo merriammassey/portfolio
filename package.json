@@ -2,7 +2,7 @@
   "homepage": "http://merriammassey.github.io/portfolio",
   "name": "react-portfolio",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@fontsource/roboto": "^4.4.5",
     "@material-ui/core": "^4.11.4",
