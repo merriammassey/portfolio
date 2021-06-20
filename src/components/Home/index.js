@@ -7,12 +7,18 @@ function Home() {
     <section>
       <div id="homephoto">
         <div id="text">
-          <p id="mni">MY NAME IS</p>
-          <h1 id="mm">
-            Merriam <br />
-            Massey
-          </h1>
-          <p id="iaa">I am a fullstack developer based in Phoenix, Arizona.</p>
+          <div id="mni">
+            <p>MY NAME IS</p>
+          </div>
+          <div id="mm">
+            <h1>
+              Merriam <br />
+              Massey
+            </h1>
+          </div>
+          <div id="iaa">
+            <p>I am a fullstack developer based in Phoenix, Arizona.</p>
+          </div>
         </div>
       </div>
     </section>

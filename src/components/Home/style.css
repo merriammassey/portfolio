@@ -4,6 +4,7 @@
   color: white;
   display: flex;
   align-items: center;
+  object-fit: cover;
 }
 
 .MuiCardMedia-img {
@@ -20,6 +21,7 @@
 
 @keyframes mni {
   from {
+    visibility: hidden;
     padding-top: 40%;
     opacity: 0%;
   }
