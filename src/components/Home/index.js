@@ -23,7 +23,7 @@ function Home() {
           <div id="mni">
             <p>MY NAME IS</p>
           </div>
-          <div id="mm">
+          <div id="mni">
             <h1>
               Merriam <br />
               Massey

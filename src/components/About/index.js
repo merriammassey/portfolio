@@ -35,7 +35,8 @@ function About() {
             consultant services to school districts and other stakeholders
             throughout the state.
             <br />
-            <br />
+            <br />I have extensive experience designing and delivering learning
+            experiences to adult learners from diverse backgrounds.
           </article>
         </div>
       </div>
