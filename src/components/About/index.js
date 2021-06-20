@@ -1,7 +1,6 @@
 import React from "react";
 //import headshot from "../../assets/headshot.png";
 import "./style.css";
-import Aboutphotos from "../Aboutphotos";
 import image from "../../assets/headshot.png";
 import Footer from "../Footer";
 
@@ -17,7 +16,6 @@ function About() {
           <img src={image} id="headshot" alt=""></img>
         </div>
         <div id="bio">
-          <h2></h2>
           <article className="MuiTypography-body1 !important">
             Hi! My name is Merriam Massey, and I'm a fullstack developer living
             in the Phoenix area. <br />
@@ -28,8 +26,8 @@ function About() {
             <br />
             <br />
             In early 2021, I transitioned to tech from my role as State Director
-            of a federally funded program that ensures that over 11,000 children
-            of migratory agricultural workers reach challenging academic
+            of a federally funded program that ensures that children of
+            migratory agricultural workers in Arizona reach challenging academic
             standards and graduate high school prepared for responsible
             citizenship, further learning, and productive employment. In this
             role, I directed the provision of quality technical assistance,
