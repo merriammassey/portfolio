@@ -9,7 +9,7 @@ import techblog from "../../assets/images/techblog.jpg";
 import "./style.css";
 import Footer from "../Footer";
 
-function Portfolio() {
+function Portfolio(props) {
   const projects = [
     {
       name: "Jobless",

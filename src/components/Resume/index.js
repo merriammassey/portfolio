@@ -24,7 +24,7 @@ function Resume() {
       </div>
       <div id="resume">
         <ul id="tools">
-          <h4>My tools</h4>
+          <li id="tooltitle">My tools</li>
           <br />
           <li>
             {bull}

@@ -25,14 +25,16 @@ function About() {
             administration.
             <br />
             <br />
-            In early 2021, I transitioned to tech from my role as State Director
-            of a federally funded program that ensures that children of
-            migratory agricultural workers in Arizona reach challenging academic
+            In July 2021, I will earn my certificate in fullstack development
+            and focus on growing my career in tech. I will be transitioning from
+            the role of State Director of a federally funded program that
+            prepares at-risk students in Arizona to reach challenging academic
             standards and graduate high school prepared for responsible
             citizenship, further learning, and productive employment. In this
-            role, I directed the provision of quality technical assistance,
-            professional development, and consultant services to school
-            districts throughout the state.
+            role, I directed professional development, technical assitance, and
+            consultant services to school districts and other stakeholders
+            throughout the state.
+            <br />
             <br />
           </article>
         </div>
