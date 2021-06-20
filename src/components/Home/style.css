@@ -92,3 +92,89 @@
   animation-iteration-count: 1;
   animation-delay: 1s;
 }
+
+@media screen and (max-width: 575px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0;
+  }
+
+  p {
+    letter-spacing: 0;
+  }
+
+  @keyframes mni {
+    from {
+      visibility: hidden;
+      padding-top: 40%;
+      opacity: 0%;
+    }
+    to {
+      padding-bottom: 0%;
+      opacity: 100%;
+    }
+  }
+
+  #mni {
+    animation-name: mni;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+  }
+
+  @keyframes connect {
+    from {
+      visibility: hidden;
+      padding-left: 40%;
+      opacity: 0%;
+    }
+    to {
+      padding-left: 0%;
+      opacity: 100%;
+    }
+  }
+  #connectbutton {
+    animation-name: connect;
+    animation-fill-mode: both;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-delay: 2s;
+  }
+  /* 
+  @keyframes mm {
+    from {
+      padding-left: 50%;
+      opacity: 0%;
+    }
+    to {
+      padding-left: 0%;
+      opacity: 100%;
+    }
+  }
+  
+  #mm {
+    animation-name: mm;
+    animation-fill-mode: both;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+  }
+   */
+  @keyframes iaa {
+    from {
+      opacity: 0%;
+    }
+    to {
+      opacity: 100%;
+    }
+  }
+
+  #iaa {
+    animation-name: iaa;
+    animation-fill-mode: both;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+  }
+}
