@@ -314,16 +314,3 @@ a {
 .navActive {
   color: var(--secondary);
 }
-
-@media screen and (max-width: 575px) {
-  h1 {
-    font-size: 3.5rem;
-    line-height: 3.5rem;
-    margin-bottom: 1rem;
-    letter-spacing: 0;
-  }
-
-  p {
-    letter-spacing: 0;
-  }
-}

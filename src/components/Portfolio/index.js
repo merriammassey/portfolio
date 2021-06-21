@@ -8,6 +8,7 @@ import ecommerce from "../../assets/images/ecommerce.jpg";
 import techblog from "../../assets/images/techblog.jpg";
 import "./style.css";
 import Footer from "../Footer";
+import { useSpring, animated, set, config, flip } from "react-spring";
 
 function Portfolio(props) {
   const projects = [
@@ -56,17 +57,30 @@ function Portfolio(props) {
     },
   ];
 
+  const iaa = useSpring({
+    to: { opacity: 1 },
+    from: { opacity: 0 },
+    reset: true,
+    reverse: flip,
+    delay: 200,
+    duration: 400,
+    config: config.molasses,
+    onRest: () => set(!flip),
+  });
+
   return (
     <div>
       <div id="title">
         <h3>My work</h3>
         <hr></hr>
       </div>
-      <div className="flex-row">
-        {projects.map((project) => (
-          <Card project={project}></Card>
-        ))}
-      </div>
+      <animated.div style={iaa}>
+        <div className="flex-row">
+          {projects.map((project) => (
+            <Card project={project}></Card>
+          ))}
+        </div>
+      </animated.div>
       <Footer></Footer>
     </div>
   );
