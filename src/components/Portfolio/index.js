@@ -14,42 +14,48 @@ function Portfolio(props) {
   const projects = [
     {
       name: "Jobless",
-      description: "Lorem ipsum",
+      description:
+        "A web app that uses APIs from the Bureau of Labor Statistics and Google to display job listings beside data including career outlook and median salaries. Built with HTML, Foundation CSS, custom CSS, Javascript, and JQuery.",
       image: jobless,
       repo: "https://github.com/merriammassey/job-search",
       deployment: "https://merriammassey.github.io/job-search/",
     },
     {
       name: "Safer Sale",
-      description: "Lorem ipsum",
+      description:
+        "A web app designed to connect buyers and sellers of used goods and identify safe locations for the transaction. Built with HTML, CSS, Javascript, Handlebars, bycryptjs, mysql, SW3, and the Google Places API",
       image: safersale,
       repo: "https://github.com/merriammassey/Safer-Sale",
       deployment: "https://safersale.herokuapp.com/",
     },
     {
       name: "Weather Dashboard",
-      description: "Lorem ipsum",
+      description:
+        "A web app that uses the Open Weather API to display current and future weather conditions of various locations and displays recent searches.",
       image: weather,
       repo: "https://github.com/merriammassey/weather-dashboard",
       deployment: "https://merriammassey.github.io/weather-dashboard/",
     },
     {
       name: "Password Generator",
-      description: "Lorem ipsum",
+      description:
+        "A web app that generates a random password based on user-selected criteria. Features dynamically updated HTML and CSS powered by JavaScript.",
       image: pg,
       repo: "https://github.com/merriammassey/password-generator",
       deployment: "https://merriammassey.github.io/password-generator/",
     },
     {
       name: "Tech Blog",
-      description: "Lorem ipsum",
+      description:
+        "A CMS-style blog built in the MVC paradigm using Handlebars.js as the templating language, Sequelize as the ORM, express-session for authentication, and deployed to Heroku.",
       image: techblog,
       repo: "https://github.com/merriammassey/tech-blog",
       deployment: "https://serene-peak-86703.herokuapp.com//",
     },
     {
       name: "E-Commerce Backend",
-      description: "Lorem ipsum",
+      description:
+        "The backend for an e-commerce site. A working Express.js API configured to use Sequelize to interact with a MySQL database.",
       image: ecommerce,
       repo: "https://github.com/merriammassey/ecommerce-backend",
       deployment:

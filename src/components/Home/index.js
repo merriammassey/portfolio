@@ -41,17 +41,7 @@ function Home() {
     from: { opacity: 0 },
     reset: true,
     reverse: flip,
-    delay: 1200,
-    config: config.molasses,
-    onRest: () => set(!flip),
-  });
-
-  const lc = useSpring({
-    to: { opacity: 1 },
-    from: { opacity: 0 },
-    reset: true,
-    reverse: flip,
-    delay: 1500,
+    delay: 900,
     config: config.molasses,
     onRest: () => set(!flip),
   });
@@ -64,20 +54,14 @@ function Home() {
             <p>MY NAME IS</p>
           </animated.div>
           <animated.div style={mm}>
-            <div id="mni">
-              <h1>
-                Merriam <br />
-                Massey
-              </h1>
-            </div>
+            <h1>
+              Merriam <br />
+              Massey
+            </h1>
           </animated.div>
           <animated.div style={iaa}>
-            <div id="iaa">
-              <p>I am a fullstack developer based in Phoenix, Arizona.</p>
-            </div>
-
+            <p>I am a fullstack developer based in Phoenix, Arizona.</p>
             <br />
-
             <div id="connectbutton" className={classes.root}>
               <Button variant="contained" component={Link} to={"/contact"}>
                 Let's connect
