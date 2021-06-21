@@ -62,11 +62,15 @@ function Home() {
           <animated.div style={iaa}> */}
             <p>I am a fullstack developer based in Phoenix, Arizona.</p>
             <br />
-            <div id="connectbutton" className={classes.root}>
-              <Button variant="contained" component={Link} to={"/contact"}>
-                Let's connect
-              </Button>
-            </div>
+
+            <Button
+              className={classes.root}
+              variant="contained"
+              component={Link}
+              to={"/contact"}
+            >
+              Let's connect
+            </Button>
           </animated.div>
         </div>
       </div>
