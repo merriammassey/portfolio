@@ -58,8 +58,8 @@ function Home() {
               Merriam <br />
               Massey
             </h1>
-          </animated.div>
-          <animated.div style={iaa}>
+            {/*   </animated.div>
+          <animated.div style={iaa}> */}
             <p>I am a fullstack developer based in Phoenix, Arizona.</p>
             <br />
             <div id="connectbutton" className={classes.root}>
