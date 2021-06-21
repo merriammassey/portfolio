@@ -4,7 +4,7 @@ import "./style.css";
 import Button from "@material-ui/core/Button";
 import { makeStyles } from "@material-ui/core/styles";
 import { Link } from "react-router-dom";
-import { useSpring, animated, set, config, flip } from "react-spring";
+//import { useSpring, animated, set, config, flip } from "react-spring";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -16,7 +16,7 @@ const useStyles = makeStyles((theme) => ({
 
 function Home() {
   const classes = useStyles();
-  const mni = useSpring({
+  /* const mni = useSpring({
     to: { opacity: 1, paddingTop: 0 },
     from: { opacity: 0, paddingTop: 200 },
     reset: true,
@@ -44,34 +44,34 @@ function Home() {
     delay: 900,
     config: config.molasses,
     onRest: () => set(!flip),
-  });
+  }); */
 
   return (
     <section>
       <div id="homephoto">
         <div id="text">
-          <animated.div style={mni}>
-            <p>MY NAME IS</p>
-          </animated.div>
-          <animated.div style={mm}>
-            <h1>
-              Merriam <br />
-              Massey
-            </h1>
-            {/*   </animated.div>
+          {/* <animated.div style={mni}> */}
+          <p>MY NAME IS</p>
+          {/* </animated.div> */}
+          {/* <animated.div style={mm}> */}
+          <h1>
+            Merriam <br />
+            Massey
+          </h1>
+          {/*   </animated.div>
           <animated.div style={iaa}> */}
-            <p>I am a fullstack developer based in Phoenix, Arizona.</p>
-            <br />
+          <p>I am a fullstack developer based in Phoenix, Arizona.</p>
+          <br />
 
-            <Button
-              className={classes.root}
-              variant="contained"
-              component={Link}
-              to={"/contact"}
-            >
-              Let's connect
-            </Button>
-          </animated.div>
+          <Button
+            className={classes.root}
+            variant="contained"
+            component={Link}
+            to={"/contact"}
+          >
+            Let's connect
+          </Button>
+          {/* </animated.div> */}
         </div>
       </div>
     </section>
