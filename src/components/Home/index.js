@@ -61,7 +61,7 @@ function Home() {
           </animated.div>
           <animated.div style={iaa}>
             {" "}
-            *<p>I am a fullstack developer based in Phoenix, Arizona.</p>
+            <p>I am a fullstack developer based in Phoenix, Arizona.</p>
             <br />
             <Button
               className={classes.root}

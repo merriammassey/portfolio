@@ -20,23 +20,26 @@ function About() {
             Hi! My name is Merriam Massey, and I'm a fullstack developer living
             in the Phoenix area. <br />
             <br />
-            I am a lifelong learner and skilled communicator with a background
-            in educational leadership, policy and advocacy, and non-profit
-            administration.
+            I am a lifelong learner and skilled communicator, and I am
+            passionate about learning and applying new tools to solve complex
+            issues.
             <br />
             <br />
-            In July 2021, I will earn my certificate in fullstack development
-            and focus on growing my career in tech. I will be transitioning from
-            the role of State Director of a federally funded program that
+            I have extensive experience teaching adult learners from diverse
+            backgrounds and excel at making complex topics easy to understand.
+            <br />
+            <br />
+            In July 2021, I will earn my certificate in fullstack development,
+            transitioning from a career in educational leadership, policy and
+            advocacy, and non-profit administration. <br />
+            <br />
+            Most recently, as State Director of a federally funded program that
             prepares at-risk students in Arizona to reach challenging academic
-            standards and graduate high school prepared for responsible
-            citizenship, further learning, and productive employment. In this
-            role, I directed professional development, technical assitance, and
-            consultant services to school districts and other stakeholders
-            throughout the state.
+            standards, I directed professional development, technical
+            assistance, and consultant services to school districts and other
+            stakeholders throughout the state.
             <br />
-            <br />I have extensive experience designing and delivering learning
-            experiences to adult learners from diverse backgrounds.
+            <br />
           </article>
         </div>
       </div>
