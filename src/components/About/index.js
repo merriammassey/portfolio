@@ -16,7 +16,7 @@ function About() {
           <img src={image} id="headshot" alt=""></img>
         </div>
         <div id="bio">
-          <article className="MuiTypography-body1 !important">
+          <article className="MuiTypography-h6 !important">
             Hi! My name is Merriam Massey, and I'm a fullstack developer living
             in the Phoenix area. <br />
             <br />
