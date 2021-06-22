@@ -15,7 +15,7 @@ function Portfolio(props) {
     {
       name: "Jobless",
       description:
-        "A web app that uses APIs from the Bureau of Labor Statistics and Google to display job listings beside data including career outlook and median salaries. Built with HTML, Foundation CSS, custom CSS, Javascript, and JQuery.",
+        "A web app that uses APIs from the Bureau of Labor Statistics and Google to display job listings alongside career outlook and median salary data. Built with HTML, Foundation CSS, custom CSS, Javascript, and JQuery.",
       image: jobless,
       repo: "https://github.com/merriammassey/job-search",
       deployment: "https://merriammassey.github.io/job-search/",

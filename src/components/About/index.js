@@ -1,7 +1,7 @@
 import React from "react";
 //import headshot from "../../assets/headshot.png";
 import "./style.css";
-import image from "../../assets/headshot.png";
+import image from "../../assets/headshot2021.jpg";
 import Footer from "../Footer";
 
 function About() {
