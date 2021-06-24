@@ -19,9 +19,9 @@ function Footer() {
           <img id="logo" alt="instagram logo" src={ig}></img>
         </a>
       </div>
-      <div className="MuiTypography-body1 !important">
+      {/* <div className="MuiTypography-body1 !important">
         <p className="MuiTypography-body1 !important">© Merriam Massey 2021</p>
-      </div>
+      </div> */}
     </footer>
   );
 }
