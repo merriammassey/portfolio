@@ -42,12 +42,12 @@ export default function MediaCard({ project }) {
       </CardActionArea>
       <CardActions>
         <Button size="small" color="primary">
-          <a href={project.deployment} target="_blank">
+          <a href={project.deployment} target="_blank" rel="noreferrer">
             Visit
           </a>
         </Button>
         <Button size="small" color="primary">
-          <a href={project.repo} target="_blank">
+          <a href={project.repo} target="_blank" rel="noreferrer">
             Repo
           </a>
         </Button>

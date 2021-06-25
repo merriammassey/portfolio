@@ -50,6 +50,7 @@ function Contact() {
     flexWrap: "wrap",
   }; */
   //const bull = <span className={classes.bullet}>•</span>;
+
   return (
     <div>
       <div id="title">
