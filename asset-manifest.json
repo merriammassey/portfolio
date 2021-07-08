@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.3b60d84f.chunk.css",
-    "main.js": "/portfolio/static/js/main.39d2f020.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.39d2f020.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.b2d5914c.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.b2d5914c.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.650ac293.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.650ac293.js.map",
     "static/css/2.e99d4d86.chunk.css": "/portfolio/static/css/2.e99d4d86.chunk.css",
@@ -23,6 +23,7 @@
     "static/media/pg.cac2e037.jpg": "/portfolio/static/media/pg.cac2e037.jpg",
     "static/media/index.css": "/portfolio/static/media/roboto-vietnamese-400-normal.c0bec65d.woff2",
     "static/media/safersale.0d883b13.jpg": "/portfolio/static/media/safersale.0d883b13.jpg",
+    "static/media/tastebuds.1b220318.jpg": "/portfolio/static/media/tastebuds.1b220318.jpg",
     "static/media/techblog.463b1286.jpg": "/portfolio/static/media/techblog.463b1286.jpg",
     "static/media/weather.57bb689b.jpg": "/portfolio/static/media/weather.57bb689b.jpg"
   },
@@ -31,6 +32,6 @@
     "static/css/2.e99d4d86.chunk.css",
     "static/js/2.33576a66.chunk.js",
     "static/css/main.3b60d84f.chunk.css",
-    "static/js/main.39d2f020.chunk.js"
+    "static/js/main.b2d5914c.chunk.js"
   ]
 }
