@@ -1,0 +1,15 @@
+curl -X POST -H "Authorization: Bearer LhPwa5pQMDo4DVNiUSePZ5L0Ge_Qof4n3cXJNWdfW1kw0-O6PzbebTK78f-nuEcNACakrZSDWLYYBxi-gAj7Yk7zSazSRnIXn7QOtV0KEkV7ca9F2djgWWzF-gjWYHYx" -H "Content-Type: application/graphql" https://api.yelp.com/v3/graphql --data '
+{
+  business(id: "maskadores-fountain-hills") {
+    name
+    id
+    is_claimed
+    is_closed
+    url
+    phone
+    display_phone
+    review_count
+    rating
+    photos
+  }
+}'
