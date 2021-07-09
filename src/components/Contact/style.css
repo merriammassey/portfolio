@@ -8,3 +8,11 @@ h3 {
   margin-left: 15%;
   border-bottom: 3px grey;
 }
+
+#name {
+  text-align: right !important;
+}
+
+#textDecoration {
+  text-decoration: none;
+}

@@ -1,4 +1,4 @@
-import React /*, { useState }*/ from "react";
+import React from "react";
 import ContactForm from "../ContactForm";
 import { makeStyles } from "@material-ui/core/styles";
 //import { validateEmail } from "../../utils/helpers";
@@ -64,10 +64,43 @@ function Contact() {
               Get in Touch
             </Typography>
             <Typography className={classes.pos} color="textSecondary">
-              Complete the form below, and I will respond as soon as possible.
+              Keep up to date with my latest projects by following my social
+              media accounts.
             </Typography>
+            <br />
+            <a href="https://linkedin.com/in/merriammassey">
+              <Typography variant="h5" component="h2">
+                LinkedIn:
+                <Typography id="name" color="textSecondary">
+                  merriammassey
+                </Typography>
+              </Typography>
+            </a>
+            <br />
+            <a href="https://github.com/merriammassey">
+              <Typography variant="h5" component="h2">
+                GitHub:{" "}
+                <Typography id="name" color="textSecondary">
+                  merriammassey
+                </Typography>
+              </Typography>
+            </a>
+            <br />{" "}
+            <a href="mailto:merriammassey@gmail.com" id="textDecoration">
+              <Typography variant="h5" component="h2">
+                Email:{" "}
+                <Typography
+                  id="name"
+                  style={{ textDecoration: "none" }}
+                  color="textSecondary"
+                >
+                  merriammassey@gmail.com
+                </Typography>
+              </Typography>
+            </a>
+            <br />
           </CardContent>
-          <ContactForm fullWidth></ContactForm>
+          {/* <ContactForm fullWidth></ContactForm> */}
         </Card>
 
         {/*<Card className={classes.root} style={cardstyle}>
