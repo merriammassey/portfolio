@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.3b60d84f.chunk.css",
-    "main.js": "/portfolio/static/js/main.914c4337.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.914c4337.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.d65950a0.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.d65950a0.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.650ac293.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.650ac293.js.map",
     "static/css/2.e99d4d86.chunk.css": "/portfolio/static/css/2.e99d4d86.chunk.css",
@@ -14,7 +14,8 @@
     "static/css/2.e99d4d86.chunk.css.map": "/portfolio/static/css/2.e99d4d86.chunk.css.map",
     "static/css/main.3b60d84f.chunk.css.map": "/portfolio/static/css/main.3b60d84f.chunk.css.map",
     "static/js/2.33576a66.chunk.js.LICENSE.txt": "/portfolio/static/js/2.33576a66.chunk.js.LICENSE.txt",
-    "static/media/MasseyCV.a62ba156.pdf": "/portfolio/static/media/MasseyCV.a62ba156.pdf",
+    "static/media/MasseyCV.2d6b71fe.pdf": "/portfolio/static/media/MasseyCV.2d6b71fe.pdf",
+    "static/media/books.40a4f6af.jpg": "/portfolio/static/media/books.40a4f6af.jpg",
     "static/media/style.css": "/portfolio/static/media/darkcode.1c0b5ca7.jpg",
     "static/media/ecommerce.bccc44b5.jpg": "/portfolio/static/media/ecommerce.bccc44b5.jpg",
     "static/media/headshot2021.7a8310a8.jpg": "/portfolio/static/media/headshot2021.7a8310a8.jpg",
@@ -32,6 +33,6 @@
     "static/css/2.e99d4d86.chunk.css",
     "static/js/2.33576a66.chunk.js",
     "static/css/main.3b60d84f.chunk.css",
-    "static/js/main.914c4337.chunk.js"
+    "static/js/main.d65950a0.chunk.js"
   ]
 }
