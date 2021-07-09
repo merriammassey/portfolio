@@ -7,6 +7,7 @@ import pg from "../../assets/images/pg.jpg";
 import ecommerce from "../../assets/images/ecommerce.jpg";
 import techblog from "../../assets/images/techblog.jpg";
 import tastebuds from "../../assets/images/tastebuds.jpg";
+import books from "../../assets/images/books.jpg";
 import "./style.css";
 import Footer from "../Footer";
 import { useSpring, animated, config, flip } from "react-spring";
@@ -19,7 +20,7 @@ function Portfolio(props) {
         "A full stack MERN app that enables users to create a custom poll populated with restaurant data from the Yelp Fusion API so that they can conveniently choose a place to eat with friends or coworkers.",
       image: tastebuds,
       repo: "https://github.com/merriammassey/tastebuds",
-      deployment: "https://whereyouwannaeat.herokuapp.com/event",
+      deployment: "https://whereyouwannaeat.herokuapp.com/",
     },
     {
       name: "Jobless",
@@ -28,6 +29,14 @@ function Portfolio(props) {
       image: jobless,
       repo: "https://github.com/merriammassey/jobsearch",
       deployment: "https://merriammassey.github.io/jobsearch/",
+    },
+    {
+      name: "Book Search Refactor",
+      description:
+        "Refactor of a functioning Google Books API search engine built with a RESTful API to use GraphQL and Apollo. Built using the MERN stack, with a React front end, MongoDB database, and Node.js.",
+      image: books,
+      repo: "https://github.com/merriammassey/book-search",
+      deployment: "https://github.com/merriammassey/book-search",
     },
     {
       name: "Safer Sale",
