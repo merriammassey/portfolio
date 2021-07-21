@@ -40,7 +40,7 @@ function Resume() {
           </li>
           <li>
             {bull}
-            {"  "}SQL
+            {"  "}MySQL
           </li>
           <li>
             {bull}
@@ -48,7 +48,11 @@ function Resume() {
           </li>
           <li>
             {bull}
-            {"  "}MongoDB
+            {"  "}GraphQL
+          </li>
+          <li>
+            {bull}
+            {"  "}Mongo DB
           </li>
           <li>
             {bull}
@@ -80,11 +84,15 @@ function Resume() {
           </li>
           <li>
             {bull}
+            {"  "}Foundation
+          </li>
+          <li>
+            {bull}
             {"  "}Ajax
           </li>
           <li>
             {bull}
-            {"  "}React
+            {"  "}Axios
           </li>
           <li>{bull} Handlebars</li>
         </ul>

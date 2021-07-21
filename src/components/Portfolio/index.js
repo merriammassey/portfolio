@@ -17,7 +17,7 @@ function Portfolio(props) {
     {
       name: "TasteBuds",
       description:
-        "A full stack MERN app that enables users to create a custom poll populated with restaurant data from the Yelp Fusion API so that they can conveniently choose a place to eat with friends or coworkers.",
+        "Work in progress: A full stack MERN app that enables users to create a custom poll populated with restaurant data from the Yelp Fusion API so that they can conveniently choose a place to eat with friends or coworkers.",
       image: tastebuds,
       repo: "https://github.com/merriammassey/tastebuds",
       deployment: "https://whereyouwannaeat.herokuapp.com/",

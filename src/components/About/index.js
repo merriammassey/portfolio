@@ -28,7 +28,7 @@ function About() {
             issues.
             <br />
             <br />
-            In July 2021, I will earn my certificate in fullstack development,
+            In July 2021, I earned my certificate in fullstack development,
             transitioning from a career in educational leadership, policy and
             advocacy, and non-profit administration. <br />
             <br />
