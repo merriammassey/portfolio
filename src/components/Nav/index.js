@@ -17,7 +17,7 @@ const useStyles = makeStyles({
 
 function AppNav() {
   const classes = useStyles();
-  const [value, setValue] = React.(0);
+  const [value, setValue] = React.useState(0);
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
