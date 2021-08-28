@@ -8,6 +8,14 @@
   object-fit: cover;
 }
 
+#aboutBox {
+  height: 100vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  object-fit: cover;
+}
+
 .MuiCardMedia-img {
   padding: 0;
   margin: 0;

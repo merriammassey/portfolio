@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 //import photo from ;
 
 const ProjectList = ({ category }) => {
-  const [projects] = useState([
+  const [projects] = [
     {
       name: "Jobless",
       description: "Lorem ipsum",
@@ -32,7 +32,7 @@ const ProjectList = ({ category }) => {
       category: "Projects",
       description: "Lorem ipsum",
     },
-  ]);
+  ];
   //filter so only photos in selected category appear
   //go through each photo in the photos array, use those with category that matches chosen category in Gallery
   const currentProjects = projects.filter(

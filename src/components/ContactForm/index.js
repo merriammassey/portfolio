@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import TextField from "@material-ui/core/TextField";
 import { makeStyles } from "@material-ui/core/styles";
 import { validateEmail } from "../../utils/helpers";
@@ -14,15 +14,15 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export default function FormPropsTextFields() {
-  const [errorMessage, setErrorMessage] = useState("");
+  const [errorMessage, setErrorMessage] = "";
 
   const classes = useStyles();
   //hook to manage form data
-  const [formState, setFormState] = useState({
+  const [formState, setFormState] = {
     name: "",
     email: "",
     message: "",
-  });
+  };
   const { name, email, message } = formState;
   function handleChange(e) {
     if (e.target.name === "email") {
