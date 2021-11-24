@@ -35,7 +35,7 @@ function AppNav() {
       >
         <Tab label="About" component={Link} to={"/about"} />
         <Tab label="My work" component={Link} to={"/myportfolio"} />
-        <Tab label="Resume" component={Link} to={"/resume"} />
+        {/* <Tab label="Resume" component={Link} to={"/resume"} /> */}
         <Tab label="Contact" component={Link} to={"/contact"} />
       </Tabs>
     </Paper>

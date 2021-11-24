@@ -64,8 +64,8 @@ function Contact() {
               Get in Touch
             </Typography>
             <Typography className={classes.pos} color="textSecondary">
-              Keep up to date with my latest projects by following my social
-              media accounts.
+              Keep up to date with my latest projects or reach out to
+              collaborate.
             </Typography>
             <br />
             <a href="https://linkedin.com/in/merriammassey">

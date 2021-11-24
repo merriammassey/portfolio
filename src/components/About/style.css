@@ -29,3 +29,14 @@ h3 {
 #headshot {
   width: 40vh;
 }
+
+#br {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 10px;
+}

@@ -3,7 +3,8 @@ import React from "react";
 import "./style.css";
 import image from "../../assets/headshot2021.jpg";
 import Footer from "../Footer";
-
+import Button from "@material-ui/core/Button";
+import PDF from "../../assets/MasseyCV.pdf";
 function About() {
   return (
     <div>
@@ -34,13 +35,13 @@ function About() {
             <br />
             I excel at making complex topics easy to understand and have
             extensive experience teaching adult learners from diverse
-            backgrounds. Most recently, as State Director of a federally funded
-            program that prepares at-risk students in Arizona to reach
-            challenging academic standards, I directed professional development,
-            technical assistance, and consultant services to school districts
-            and other stakeholders throughout the state.
+            backgrounds and designing and delivering professional development.
             <br />
-            <br />
+            <div id="br">
+              <Button variant="contained" a href={PDF} target="_blank" id="rb">
+                View my resume
+              </Button>
+            </div>
           </article>
         </div>
       </div>
